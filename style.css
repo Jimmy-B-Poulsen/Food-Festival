@@ -90,3 +90,55 @@ header p{
     color: white;
     margin: 0;
 }
+
+section{
+    display: grid;
+    grid-template-columns: auto repeat(4, 15%) auto;
+    grid-template-rows: 20% 35% 35% 10%;
+}
+
+section article{
+    grid-template-columns: 100%;
+    grid-template-rows: 15% 50% 20% 15%;
+    grid-gap: 1rem;
+}
+
+#MB{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+#CP{
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+#RR{
+    grid-column: 4/5;
+    grid-row: 2/3;
+}
+
+#HB{
+    grid-column: 5/6;
+    grid-row: 2/3;
+}
+
+#MS{
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+#CK{
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+
+#SG{
+    grid-column: 4/5;
+    grid-row: 3/4;
+}
+
+#BP{
+    grid-column: 5/6;
+    grid-row: 3/4;
+}
