@@ -93,7 +93,7 @@ header p{
 
 section{
     display: grid;
-    grid-template-columns: auto repeat(4, 15%) auto;
+    grid-template-columns: auto repeat(4, 20g%) auto;
     grid-template-rows: 20% 35% 35% 10%;
 }
 
