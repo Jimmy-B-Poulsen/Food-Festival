@@ -91,16 +91,22 @@ header p{
     margin: 0;
 }
 
-section{
+#People{
     display: grid;
-    grid-template-columns: auto repeat(4, 20g%) auto;
-    grid-template-rows: 20% 35% 35% 10%;
+    grid-template-columns: auto repeat(4, 12.5%) auto;
+    grid-template-rows: 5% 43% 43% 5%;
+    grid-gap: 2rem;
+    background-color: lightgray;
 }
 
 section article{
     grid-template-columns: 100%;
     grid-template-rows: 15% 50% 20% 15%;
-    grid-gap: 1rem;
+    background-color: whitesmoke;
+}
+
+section h4, section p{
+    margin: 0;
 }
 
 #MB{
